@@ -1,0 +1,19 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+
+.container {
+    padding: 0 10px;
+  }
+
+.gallery-grid {
+
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 100px, 200px;
+    grid-gap: 15px;
+    
+
+ }

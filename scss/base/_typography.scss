@@ -3,8 +3,8 @@
 /* ============================================= */
 
 * {
-    /* @include primary-font-stack;
-    color: $secondary-color; */
+     @include primary-font-stack;
+    color: $secondary-color; 
     box-sizing: border-box;
   }
   
@@ -15,3 +15,8 @@
   a {
     text-decoration: none;
   }
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
