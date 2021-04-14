@@ -4,16 +4,25 @@
 
 
 .container {
-    padding: 0 10px;
+    
+    padding: 10px 10px;
   }
 
+  /* PROBLEM TO FIX ******************************************************************************
+  Grid resizes strangely when getting smaller. 
+  Images overlap from approx 430px-472px, 640px-700px, 850px - 920px
+  when max-width is 1000px
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); //responsive
+  grid-gap: 10px;
+
+  */
 .gallery-grid {
 
+    @include center;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 100px, 200px;
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); //responsive
+    grid-gap: 10px;
     
 
  }

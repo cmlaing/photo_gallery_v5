@@ -407,20 +407,41 @@ a {
 /* ============================================= */
 /* line 6, ../../../../Web Course/photo_gallery_v5/scss/components/_grid.scss */
 .container {
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
-/* line 10, ../../../../Web Course/photo_gallery_v5/scss/components/_grid.scss */
+/* PROBLEM TO FIX ******************************************************************************
+  Grid resizes strangely when getting smaller. 
+  Images overlap from approx 430px-472px, 640px-700px, 850px - 920px
+  when max-width is 1000px
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); //responsive
+  grid-gap: 10px;
+
+  */
+/* line 19, ../../../../Web Course/photo_gallery_v5/scss/components/_grid.scss */
 .gallery-grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: 100px, 200px;
-  grid-gap: 15px;
+  grid-gap: 10px;
 }
 
 /* ============================================= */
 /*              Images                           */
+/* ============================================= */
+/* line 6, ../../../../Web Course/photo_gallery_v5/scss/components/_images.scss */
+.thumbnail {
+  width: 230px;
+  height: 180px;
+  border: #8a817c solid 1px;
+  padding: 5px;
+}
+
+/* ============================================= */
+/*              Search Box                       */
 /* ============================================= */
 
 /*# sourceMappingURL=styles.css.map */
