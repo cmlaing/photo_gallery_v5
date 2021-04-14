@@ -2,3 +2,13 @@
 /*              Search Box                       */
 /* ============================================= */
 
+#search {
+    @include center;
+    width: 500px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid $secondary-color;
+    border-radius: 5px;
+
+}
