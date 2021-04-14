@@ -1,0 +1,17 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    /* @include primary-font-stack;
+    color: $secondary-color; */
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
