@@ -13,3 +13,4 @@
  
  The code consists of SCSS(Sass), CSS, HTML, and JavaScript. 
  Programs used: Visual Studio Code, Scout-App, and GitHub Desktop. 
+ 4hrs
